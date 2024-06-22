@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/xmlsn">
+<link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet">
+</link>
+<!--<html dir="rtl">-->
+</html>
+
+<head>
+
+    <title>Homework</title>
+    <!-- Min Template Css File -->
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="shopping" href="./ShoppingBasket.html">
+
+</head>
+
+<body>
+<div class="header" id="header">
+    <div class="container">
+        <a href="home.html"class="logo">SWEID</a>
+        <ul class="main-nav">
+        <li><a href="AboutUS.html">من نحن</a></li>
+        <li><a href="Propertis.html">العقارات</a></li>
+        <li><a href="home.html">الصفحة الرئيسية</a></li>
+        
+        </ul>
+        
+    </div>
+</div>
+<!--End Header-->
+<!--Start property-->
+<form id="shoppingForm">
+<div>
+    <table class="prop">
+        <thead>
+            <tr>
+            <th>المدينة</th>
+            <th>التفاصيل</th>
+            <th>الإيجار الشهري</th>
+            <th>إظهار التفاصيل</th>
+            <th>أختيار</th>
+        </tr>
+        </thead>
+        <tbody class="t1">
+            <tr id="row1">
+            <td>طرطوس</td>
+            <td>فيلا 3 غرف + صالة + مسبح </td>
+            <td id="price">950,000 ل.س</td>
+            <td>
+            <label class="check-show">
+            <input onclick="toggle1()" class="checkbox1" type="checkbox" id="checkbox1" name="checkbox1" >
+            <span class="sp1"></span>
+            </label>
+            </td>
+            <td>
+            <label class="check-click">
+            <input class="checkbox2" type="checkbox" id="checkbox2" name="item"
+            value = 
+            "طرطوس البيضاء (بانياس)
+            فيلا 3 غرف + صالة + مسبح 
+            الملكية : طابو
+            الطابق : الأرضي
+            الاكساء : مفروشة
+            المساحة : 450 م2
+            الاجار الشهري : 950,000 ل س               
+            ">
+            <span class="sp2" id="sp2"></span>
+            </label>
+            </td>
+            <tr >
+            <td class="det" colspan="5" >
+                <div class="abb1" id="abb1">
+                <p><pre>المنطقة : البيضاء (بانياس)                         الطابق : الأرضي</pre></p>
+                <p><pre>الملكية : طابو          الكساء : مفروش          المساحة : 450 م2</pre></p>
+                <div id="row" class="container">
+                <div class="box">  
+                <img src="./images/Homes/A/A1.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/A/A2.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/A/A3.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/A/A4.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/A/A5.png" alt="">
+                </div>
+                </div>
+                </div>
+            </td>
+            </tr>
+            <tr id="row1">
+            <td>طرطوس</td>
+            <td>شقة غرفتين + صالة</td>
+            <td id="price">600,000 ل.س</td>
+            <td>
+            <label class="check-show">
+            <input onclick="toggle2()" class="checkbox1" type="checkbox" id="checkbox1" name="checkbox1" >
+            <span class="sp1"></span>
+            </label>
+            </td>
+            <td>
+            <label class="check-click">
+            <input class="checkbox2" type="checkbox" id="checkbox2"  name="item" 
+            value="طرطوس (عنابية)
+            شقة غرفتين + صالة
+            الملكية : طابو
+            الطابق : الرابع
+            الاكساء : مفروشة
+            المساحة : 350 م2
+            الاجار الشهري : 600,000 ل س 
+            ">
+            <span class="sp2"></span>
+            </label>
+            </td>
+            <tr >
+            <td class="det" colspan="5">
+                <div class="abb2" id="abb2">
+                <p><pre>المنطقة : طرطوس (عنابية)                         الطابق : الرابع </pre></p> 
+                <p><pre>الملكية : طابو           الكساء : مفروش          المساحة : 350 م2</pre></p>
+                <div id="row" class="container">
+                <div class="box">  
+                <img src="./images/Homes/B/B1.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/B/B2.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/B/B3.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/B/B4.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/B/B5.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/B/B6.png" alt="">
+                </div>
+                </div>
+                </div>
+            </td>
+            </tr>
+            <tr id="row1">
+            <td>اللاذقية</td>
+            <td>شاليه 4 غرف + صالة + مسبح</td>
+            <td id="price">900,000 ل.س</td>
+            <td>
+            <label class="check-show">
+            <input onclick="toggle3()" class="checkbox1" type="checkbox" id="checkbox1" name="checkbox1" >
+            <span class="sp1"></span>
+            </label>
+            </td>
+            <td>
+            <label class="check-click">
+            <input class="checkbox2" type="checkbox" id="checkbox2" name="item"
+            value=
+            " 
+            اللاذقية (الرمل الجنوبي)
+            شاليه 4 غرف + صالة + مسبح
+            الملكية : طابو
+            الطابق : الرابع
+            الاكساء : مفروشة
+            المساحة : 350 م2
+            الاجار الشهري : 900,000 ل س" >
+            <span class="sp2"></span> 
+            </label>
+            </td>
+            <tr >
+            <td class="det" colspan="5">
+                <div class="abb3" id="abb3">
+                <p><pre>المنطقة : (الرمل الجنوبي)                         الطابق : الرابع </pre></p>
+                <p><pre>الملكية : طابو          الكساء : مفروش             المساحة : 350 م2</pre></p>
+                <div id="row" class="container">
+                <div class="box">  
+                <img src="./images/Homes/C/C1.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/C/C2.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/C/C3.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/C/C4.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/C/C5.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/C/C6.png" alt="">
+                </div>
+                </div>
+                </div>
+            </td>
+            </tr>
+            <tr id="row1">
+            <td>اللاذقية</td>
+            <td>شقة غرفة + صالة</td>
+            <td id="price">500,000 ل.س</td>
+            <td>
+            <label class="check-show">
+            <input onclick="toggle4()" class="checkbox1" type="checkbox" id="checkbox1" name="checkbox1" >
+            <span class="sp1"></span>
+            </label>
+            </td>
+            <td>
+            <label class="check-click">
+            <input class="checkbox2" type="checkbox" id="checkbox2" name="item" 
+            value=
+            "
+            اللاذقية (القلعة)
+            شقة غرفة + صالة
+            الملكية : طابو
+            الطابق : الرابع
+            الاكساء : مفروشة
+            المساحة : 160 م2
+            الاجار الشهري : 500,000 ل س">
+            <span class="sp2"></span>
+            </label>
+            </td>
+            <tr >
+            <td class="det" colspan="5">
+                <div class="abb4" id="abb4">
+                <p><pre>المنطقة : (القلعة)                        الطابق : الثالث </pre></p>
+                <p><pre>الملكية : طابو          الكساء : مفروش             المساحة : 160 م2</pre></p>
+                <div id="row" class="container">
+                <div class="box">  
+                <img src="./images/Homes/D/D1.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/D/D2.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/D/D3.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/D/D4.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/D/D5.png" alt="">
+                </div>
+                </div>
+                </div>
+            </td>
+            </tr>
+            <tr id="row1">
+            <td>حلب</td>
+            <td>مركز تجميل</td>
+            <td id="price">300,000 ل.س</td>
+            <td>
+            <label class="check-show">
+            <input onclick="toggle5()" class="checkbox1" type="checkbox" id="checkbox1" name="checkbox1" >
+            <span class="sp1"></span>
+            </label>
+            </td>
+            <td>
+            <label class="check-click">
+            <input class="checkbox2" type="checkbox" id="checkbox2" name="item" 
+            value=
+            "
+            حلب (شارع الملك فيصل)
+            مركز تجميل
+            الملكية : طابو
+            (الطابق : الأرضي )الشارع العام  
+            الاكساء : مفروشة+ التجهيزات والمعدات
+            المساحة : 120 م2
+            الاجار الشهري : 300,000 ل س">
+            <span class="sp2"></span>
+            </label>
+            </td>
+            <tr >
+            <td class="det" colspan="5">
+                <div class="abb5" id="abb5">
+                <p><pre>المنطقة : (شارع الملك فيصل)                           الطابق : الأرضي (الشارع العام) </pre></p>
+                <p><pre>الملكية : طابو          الكساء : مفروش + (التجهيزات والمعدات)          المساحة : 120 م2</pre></p>
+                <div id="row" class="container">
+                <div class="box">  
+                <img src="./images/Homes/E/E1.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/E/E2.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/E/E3.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/E/E4.png" alt="">
+                </div>
+                </div>
+                </div>
+            </td>
+            </tr>
+            <tr id="row1">
+            <td>حلب</td>
+            <td>بيت غرفتين + صالة</td>
+            <td id="price">600,000 ل.س</td>
+            <td>
+            <label class="check-show">
+            <input onclick="toggle6()" class="checkbox1" type="checkbox" id="checkbox1" name="checkbox1" >
+            <span class="sp1"></span>
+            </label>
+            </td>
+            <td>
+            <label class="check-click">
+            <input class="checkbox2" type="checkbox" id="checkbox2" name="item" 
+            value=
+            "
+            حلب (الأعظمية)
+            بيت غرفتين + صالة
+            الملكية : طابو
+            الطابق : الأرضي    
+            الاكساء : مفروش
+            المساحة : 175 م2
+            الاجار الشهري : 600,000 ل س">
+            <span class="sp2"></span>
+            </label>
+            </td>
+            <tr >
+            <td class="det" colspan="5">
+                <div class="abb6" id="abb6">
+                <p><pre>المنطقة : (الأعظمية)                          الطابق : الأول </pre></p>
+                <p><pre>الملكية : طابو          الكساء : مفروش             المساحة : 175 م2</pre></p>
+                <div id="row" class="container">
+                <div class="box">  
+                <img src="./images/Homes/F/F1.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/F/F2.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/F/F3.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/F/F4.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/F/F5.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/F/F6.png" alt="">
+                </div>
+                </div>
+                </div>
+            </td>
+            </tr>
+            <tr id="row1">
+            <td>دمشق</td>
+            <td>شقة 3غرف + صالة</td>
+            <td id="price">750,000 ل.س</td>
+            <td>
+            <label class="check-show">    
+            <input onclick="toggle7()" class="checkbox1" type="checkbox" id="checkbox1" name="checkbox1" >
+            <span class="sp1"></span>
+            </label>
+            </td>
+            <td>
+            <label class="check-click">
+            <input class="checkbox2" type="checkbox" id="checkbox2" name="item" 
+            value= 
+            "
+            دمشق (المالكي)
+            شقة 3 غرف + صالة
+            الملكية : طابو
+            الطابق : الرابع    
+            الاكساء : مفروش
+            المساحة : 220 م2
+            الاجار الشهري : 750,000 ل س"> 
+            <span class="sp2"></span>
+            </label>
+            </td>
+            <tr >
+            <td class="det" colspan="5">
+                <div class="abb7" id="abb7">
+                <p><pre>المنطقة : (المالكي)                           الطابق : الرابع</pre><p>
+                <p><pre>الملكية : طابو          الكساء : مفروش             المساحة : 220 م2</pre></p>
+                <div id="row" class="container">
+                <div class="box">  
+                <img src="./images/Homes/G/G1.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/G/G2.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/G/G3.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/G/G4.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/G/G5.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/G/G6.png" alt="">
+                </div>
+                </div>
+                </div>
+            </td>
+            </tr>
+            <tr id="row1">
+            <td>دمشق</td>
+            <td>شقة غرفتين + صالة</td>
+            <td id="price">500,000 ل.س</td>
+            <td>
+            <label class="check-show">
+            <input onclick="toggle8()" class="checkbox1" type="checkbox" id="checkbox1" name="checkbox1" >
+            <span class="sp1"></span>
+            </label>
+            </td>
+            <td>
+            <label class="check-click">
+            <input class="checkbox2" type="checkbox" id="checkbox2" name="item" 
+            value=
+            "
+            دمشق (المزة)
+            شقة غرفتين + صالة
+            الملكية : طابو
+            الطابق : السابع    
+            الاكساء : مفروش
+            المساحة : 130 م2
+            الاجار الشهري : 500,000 ل س">
+            <span class="sp2"></span>
+            </label>
+            </td>
+            <tr >
+            <td class="det" colspan="5">
+                <div class="abb8" id="abb8">
+                <p><pre>المنطقة :(المزة)                          الطابق : السابع </pre></p> 
+                <p><pre>الملكية : طابو          الكساء : مفروش             المساحة : 130 م2</pre></p>
+                <div id="row" class="container">
+                <div class="box">  
+                <img src="./images/Homes/H/H1.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/H/H2.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/H/H3.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/H/H4.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/H/H5.png" alt="">
+                </div>
+                </div>
+                </div>
+            </td>
+            </tr>
+            <tr id="row1">
+            <td>درعا</td>
+            <td>مزرعة + (غرفتين + صالة + مسبح)</td>
+            <td id="price">600,000 ل.س</td>
+            <td>
+            <label class="check-show">    
+            <input onclick="toggle9()" class="checkbox1" type="checkbox" id="checkbox1" name="checkbox1" >
+            <span class="sp1"></span>
+            </label>
+            </td>
+            <td>
+            <label class="check-click">
+            <input class="checkbox2" type="checkbox" id="checkbox2" name="item" 
+            value=
+            "
+            درعا (عقربا)
+            مزرعة + (غرفتين + صالة + مسبح)
+            الملكية : طابو
+            الطابق : الأرضي    
+            الاكساء : مفروش
+            المساحة : 375 م2
+            الاجار الشهري : 600,000 ل س">
+            <span class="sp2"></span>
+            </label>
+            </td>
+            <tr >
+            <td class="det" colspan="5">
+                <div class="abb9" id="abb9">
+                <p><pre>المنطقة : (عقربا)                         الطابق : الأرضي </pre></p>
+                <p><pre>الملكية : طابو          الكساء : مفروش             المساحة : 375 م2</pre></p>
+                <div id="row" class="container">
+                <div class="box">  
+                <img src="./images/Homes/I/I1.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/I/I2.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/I/I3.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/I/I4.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/I/I5.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/I/I6.png" alt="">
+                </div>
+                </div>
+                </div>
+            </td>
+            </tr>
+            <tr id="row1">
+            <td>درعا</td>
+            <td>مستودع</td>
+            <td id="price">400,000 ل.س</td>
+            <td>
+            <label class="check-show">
+            <input onclick="toggle10()" class="checkbox1" type="checkbox" id="checkbox1" name="checkbox1" >
+            <span class="sp1"></span>
+            </label>
+            </td>
+            <td>
+            <label class="check-click">
+            <input class="checkbox2" type="checkbox" id="checkbox2" name="item" 
+            value=
+            "
+            درعا (الشيخ سعد)
+            ( مستودع )
+            الملكية : طابو
+            الطابق : الأرضي    
+            الاكساء : مفروش
+            المساحة : 250 م2
+            الاجار الشهري : 400,000 ل س">
+            <span class="sp2"></span>
+            </label>
+            </td>
+            <tr >
+            <td class="det" colspan="5">
+                <div class="abb10" id="abb10">
+                <p><pre>المنطقة : (الشيخ سعد)                         الطابق : الأرضي + (قبو) </pre></p>
+                <p><pre>الملكية : طابو          الكساء : مفروش             المساحة : 250 م2</pre></p>
+                <div id="row" class="container">
+                <div class="box">  
+                <img src="./images/Homes/J/J1.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/J/J2.png" alt="">
+                </div>
+                <div class="box">  
+                <img src="./images/Homes/J/J3.png" alt="">
+                </div>
+                </div>
+                </div>
+            </td>
+            </tr>
+            </tr>
+        </tbody>
+    
+
+    </table>
+    <div class="save">
+        <button onclick="toggle()" type="button" class="but">متابعة</button>
+        
+    </div>
+</div>
+</form>
+<!--End property-->
+
+<!--Start Form-->
+<form  name="myForm" class="form" id="form" action="/">
+    <section>
+        <div class="details">
+            <img src="./images/Asset .png" alt="">
+    <div class="user-details">
+        <div class="input-box">
+        <label class="details" for="fullName">الأسم الكامل :</label>
+        <input type="text" id="fullName" name="Name" >
+        <p class="error-text"></p>
+        </div>
+        <div class="input-box">
+        <label class="details" for="numberId">الرقم الوطني</label>
+        <input type="text" id="numberId" required  maxlength="11">
+        <p class="error-text"></p>
+        </div>
+        <div class="input-box">
+        <label class="details" for="dob">تاريخ الولادة :</label>
+        <input type="text" id="dob" name="Bdate" placeholder="mm-dd-yyy">
+        <p class="error-text"></p>
+        </div>
+        <div class="input-box">
+        <label class="details" for="mobile">رقم الموبايل :</label>
+        <input type="text" id="mobile" name="Mobile" maxlength="10" placeholder="09########">
+        <p class="error-text"></p>
+        </div>
+        <div class="input-box">
+        <label class="details" for="email">الايميل :</label>
+        <input type="email" id="email" name="Email" placeholder="">
+        <p class="error-text"></p>
+        </div>
+        <div class="input-box">
+        <label class="details">أدخل الرمز</label>
+        <input id="textBox" type="text"  name="text" required maxlength="7"  onload="createCaptcha()" >
+        </div>
+        <div class="input-box">
+        <canvas class="captcha" id="captcha" name="captcha"></canvas>
+        <span id="output"></span>
+        </div>
+        <div class="submit">
+            <!-- <button type="submit" >ارسال</button> -->
+        <input id="submitButton" type="submit" value="ارسال">
+        <!--<input type="button" value="اضافة" target="_blank">-->
+        </div>
+    </div>
+        </div>
+
+<!--End Form-->
+    </section>
+<script src="js/myFunctions.js"></script>
+</body>
+</html>
